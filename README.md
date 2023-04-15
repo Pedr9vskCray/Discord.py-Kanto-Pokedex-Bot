@@ -1,4 +1,4 @@
-<h2>The Generation I Pokédex as a Discord.py bot.</h2>
+<h1>The Generation I Pokédex as a Discord.py bot.</h1>
 
 A fully functional Kanto Region Pokédex, this was created using Python and its most populars Frameworks to extract data from official sources of pokémon information.
 
