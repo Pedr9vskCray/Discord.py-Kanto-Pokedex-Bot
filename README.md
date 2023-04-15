@@ -1,6 +1,6 @@
 <h1>The Generation I Pokédex as a Discord.py bot.</h1>
 
-A fully functional Kanto Region Pokédex, this was created using Python and its most populars Frameworks to extract data from official sources of pokémon information.
+A fully functional Kanto Region Pokédex, that was created using Python and its Frameworks to extract data from official sources of pokémon information and create a discord embed as a pokédex entry.
 
 <h3>Bot Profile:</h3>
 <p align="left">
@@ -27,5 +27,20 @@ A fully functional Kanto Region Pokédex, this was created using Python and its 
 <img src="https://github.com/Pedr9vskCray/Discord.py-Kanto-Pokedex-Bot/blob/49e95c03811f20b2bf9c128f541cfa279a25c075/pictures-folder/dex%20unavailable%20pokemon.png">
 </p>
 
+Frameworks Used:
+
+- Discord.py
+- Discord.ext commands, tasks
+- BeautifulSoup
+- Requests
+- Json
+
+All the information regarding the pokemon stats and pokedex number are located on the "pokedex.json" file, everything else was obtained using BeautifulSoup and scraping different websites, which are listed here:
+
+- https://www.pokemon.com/br/pokedex/
+- https://www.pokemondb.net/sprites/
+- https://www.serebii.net/itemdex/
+
+If you wish to test out the code, you need first to pip install Python3 and all the Frameworks needed which were already listed here. After that you just need to clone this repository and in the "kanto_pokedex.py", in the end of the file, change the bot.run('discord.py token') for your discord bot token.
 
 
