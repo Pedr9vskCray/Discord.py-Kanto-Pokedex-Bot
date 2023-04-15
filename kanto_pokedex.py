@@ -102,4 +102,4 @@ async def kanto_dex(ctx, dexargument):
 
 # bot.run
 
-bot.run('MTA5MjE5OTY2NTU5Mzc0NTQ5OQ.GWI9vi.8h9_WKhdOpT1Kmy95oFXNCtNAI0KyI9BcD2LZA')
+bot.run('discord.py token')
